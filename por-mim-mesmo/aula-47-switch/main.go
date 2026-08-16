@@ -24,15 +24,14 @@ func main() {
 
 	switch x := 2; x {
 	case 1:
-		fmt.Println("x é do tipo 1")
+		fmt.Println("x é 1")
 	case 2:
-		fmt.Println("x é do tipo 2")
+		fmt.Println("x é 2")
 	case 3:
-		fmt.Println("x é do tipo 3")
+		fmt.Println("x é 3")
 	case 4:
-		fmt.Println("x é do tipo 4")
+		fmt.Println("x é 4")
 	default:
-		fmt.Println("x não é nenhum dos tipos acima")
+		fmt.Println("x não é nenhum dos números acima")
 	}
-	
 }
