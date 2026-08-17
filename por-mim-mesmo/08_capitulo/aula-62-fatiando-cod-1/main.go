@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	//			    1.           2.           3.         4.                5.
+	//		   			 0.           1.           2.         3.               4.
 	sabores := []string{"pepperoni", "mozzarela", "abacaxi", "quatroqueijos", "marguerita"}
 
 	// how to slice a slice in Go
