@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-import "golang.org/x/crypto/bcrypt"
+import (
+	"fmt"
+
+	"golang.org/x/crypto/bcrypt"
+)
 
 func main() {
 	senha := "20julho1980"
