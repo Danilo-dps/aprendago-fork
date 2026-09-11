@@ -5,7 +5,8 @@ import (
 	"fmt"
 )
 
-// Em Go para uma struct ser importada é preciso declarar os nomes do campos em letra maíscula
+// Em Go, para um campo de struct ser exportado (acessível fora do pacote),
+// seu nome precisa começar com letra maiúscula
 type pessoa struct {
 	Nome          string
 	Sobrenome     string
