@@ -5,3 +5,4 @@
 - em go posso descartar o uso de um valor usando _
 - struct embutido e um como campo de outra struct, capitulo 10, aula 80
 - sobre ponteiros, quando devo usar & e quando usar *
+- sintaxe do for com o range
