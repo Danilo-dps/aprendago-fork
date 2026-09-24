@@ -14,8 +14,7 @@ func main() {
 	fmt.Printf("cr\t%T\n", cr)
 	fmt.Printf("cs\t%T\n", cs)
 
-	// specific to general doesn't convert
-	fmt.Println("-----")
-	fmt.Printf("c\t%T\n", (chan int)(cr))
-	fmt.Printf("c\t%T\n", (chan int)(cs))
+	// specific to general doesn't assign
+	// c = cr
+	// c = cs
 }
