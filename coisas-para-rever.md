@@ -14,3 +14,5 @@
 - A regra sobre ponteiros versus valores para *receivers* é que métodos que reebem valor podem ser invocados tanto em ponteiros quanto em valores, mas métodos que esperam ponteiros só podem ser invocados em ponteiros.
 
 - Filosofia de concorrência em go `Do not communicate by sharing memory; instead, share memory by communicating.`
+
+- comma ok
